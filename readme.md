@@ -60,4 +60,4 @@ Full-stack developer based in England.
 ![Achievements](metrics/achievements.svg)
 
 ---
-[![Profile views](https://visitcount.itsvg.in/api?id=k-mihai&icon=0&color=0)](https://visitcount.itsvg.in)
+![Profile views](https://komarev.com/ghpvc/?username=k-mihai&style=flat&color=0e75b6&label=Profile+views)
