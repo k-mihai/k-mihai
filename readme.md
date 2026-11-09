@@ -49,18 +49,15 @@ Full-stack developer based in England.
 
 ## 📊 GitHub Stats
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=k-mihai&theme=dark&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-mihai&theme=dark&layout=compact" alt="Top languages" />
-</p>
+![GitHub stats](metrics/stats.svg)
 
-![GitHub streak](https://nirzak-streak-stats.vercel.app/?user=k-mihai&theme=dark)
+![Top languages](metrics/languages.svg)
 
-### 🔝 Top Contributed Repos
-![Top contributed repos](https://github-contributor-stats.vercel.app/api?username=k-mihai&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### 🔥 Contributions
+![Contribution calendar](metrics/calendar.svg)
 
-## 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=k-mihai&theme=dark&no-frame=true&no-bg=true&margin-w=4)
+## 🏆 Achievements
+![Achievements](metrics/achievements.svg)
 
 ---
 [![Profile views](https://visitcount.itsvg.in/api?id=k-mihai&icon=0&color=0)](https://visitcount.itsvg.in)
