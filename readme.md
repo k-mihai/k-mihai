@@ -3,6 +3,7 @@
 Full-stack developer based in England.
 
 - 📦 Systems Developer at **Keymas**, working on the KStore warehouse management system (CodeIgniter 4 · PHP · MySQL · Vue.js)
+- 📫 Reach me at **mihaiculea@keymas.co.uk**
 
 ## 🌐 Socials
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:mihaiculea@keymas.co.uk)
@@ -55,9 +56,6 @@ Full-stack developer based in England.
 
 ### 🔥 Contributions
 ![Contribution calendar](metrics/calendar.svg)
-
-## 🏆 Achievements
-![Achievements](metrics/achievements.svg)
 
 ---
 ![Profile views](https://komarev.com/ghpvc/?username=k-mihai&style=flat&color=0e75b6&label=Profile+views)
