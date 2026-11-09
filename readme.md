@@ -2,7 +2,6 @@
 
 Full-stack developer based in England.
 
-- 🍽️ Managing Director at **[Fimiar Ltd](https://fimiar.co.uk)**, where I build a hospitality EPOS system, from frontend to servers
 - 📦 Systems Developer at **Keymas**, working on the KStore warehouse management system (CodeIgniter 4 · PHP · MySQL · Vue.js)
 
 ## 🌐 Socials
