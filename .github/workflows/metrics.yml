@@ -1,0 +1,61 @@
+name: Profile metrics
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: k-mihai
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Europe/London
+          config_display: large
+          repositories_affiliations: owner, collaborator, organization_member
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: k-mihai
+          base: ""
+          config_timezone: Europe/London
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          repositories_affiliations: owner, collaborator, organization_member
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: k-mihai
+          base: ""
+          config_timezone: Europe/London
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: k-mihai
+          base: ""
+          config_timezone: Europe/London
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_limit: 0
